@@ -9,8 +9,8 @@
       "sha256": "0c16ba804081b5f4318842270621527a8093f9b87446e4aacd489a7cfa7c12bb"
     },
     "about/index.html": {
-      "bytes": 5841,
-      "sha256": "24f5cb328e2d1d29f8e2e05c81d83e8a8dee534610800ac8936dd909a5a0e73a"
+      "bytes": 9499,
+      "sha256": "d586c6237f3a034c4f829fabeae902238cd609d86c9618c06b43c479187cb3ad"
     },
     "assets/AssetManifest.bin": {
       "bytes": 976,
@@ -85,8 +85,8 @@
       "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
     },
     "assets/fonts/MaterialIcons-Regular.otf": {
-      "bytes": 10152,
-      "sha256": "8cd8c4b660c3081ed9a6812d88a68018a910918d0f4403ba9c5a8017c5d4ecde"
+      "bytes": 10204,
+      "sha256": "4eac111dc1c4c76ad0e48d9755613c5cf4ea97e0ef12a8d5b6fe5fea8625d127"
     },
     "assets/fonts/fallback/Roboto-Regular.ttf": {
       "bytes": 171676,
@@ -221,12 +221,16 @@
       "sha256": "23a5c32ef351224031f0d985213e2872c87ebceb1207eb48386d5a6f2811bf0b"
     },
     "index.html": {
-      "bytes": 3829,
-      "sha256": "2667e23b2dbadd393f441615693283203ccc407e3a85622c673a72a04bf61575"
+      "bytes": 4906,
+      "sha256": "6eebcc46e1f8f9210cb09c82b6dba803a3d37597a830808e3e394e4d8804aa60"
+    },
+    "liability/index.html": {
+      "bytes": 8993,
+      "sha256": "2e1669844521481925f38ad7343c5a8c62b0806a96dad4f7ed832524c662c18f"
     },
     "main.dart.js": {
-      "bytes": 3428275,
-      "sha256": "ac81e9dc2be6a0cc2774234597869aad1b97b18ec0e064d7cc09068f0c810c1f"
+      "bytes": 3460885,
+      "sha256": "f67f5bc3078f4873d9121558e1c891aacbba85225aacddd17597c4a5272550e1"
     },
     "manifest.json": {
       "bytes": 792,
@@ -238,39 +242,43 @@
     },
     "pwa_bootstrap.js": {
       "bytes": 851,
-      "sha256": "18f25123c6ed6020c7399a8d0f6b344a11dccbf2e93ce0d96901151fc7dafc48"
+      "sha256": "66c8832a23aa19450cb47d61ddfdbe0f0fbde0c6f5a69d4b4ee380b9f8eb0941"
     },
     "release.json": {
-      "bytes": 8084,
-      "sha256": "b92f5a5faaf93f3fcad6d0bf767d94d3755021403e1e6ea3f7a87eef40b4dda5"
+      "bytes": 8319,
+      "sha256": "36f9e788aec4b47fc1c12b79dc653b7bd677d2f741a029ef808eb21a78990448"
     },
     "robots.txt": {
       "bytes": 65,
       "sha256": "ec380999c0b946a61cf6b9f48ae61d62b65f205f3c68ee85115329cfb7bc723e"
     },
     "service_worker.js": {
-      "bytes": 18748,
-      "sha256": "ab35b0443aec594a7da94178827a9215c280178b584dda6e1c5ba1e4eca2c961"
+      "bytes": 19420,
+      "sha256": "193b1a50a08e14dcacb474f4fd9f6e6d628091600203e827abf7328bfa28a53f"
     },
     "site.css": {
-      "bytes": 1401,
-      "sha256": "6b149d3dbbde4e735e380f0b36a99674e6b0aa99e8c58a70501ab8a372816976"
+      "bytes": 5183,
+      "sha256": "0903d372ad70452b41e48c02d4c8774d64aea0d622400e1263ae288bee1d1f67"
     },
     "sitemap.xml": {
-      "bytes": 208,
-      "sha256": "e7ee54bfe400c894d1f58718e72c94a4c8b389c3d04a6c3da53ad2f9f4e9ecb9"
+      "bytes": 316,
+      "sha256": "6c4f2d7884cd2244aec752e36a0cbfd7a7cab89e003a8fe7a4b84d544884c41d"
     },
     "social-card.png": {
       "bytes": 44577,
       "sha256": "100bee5d857e494c49a836a135d9a1050333156dc689835a8a63547a8f09d5fc"
     },
+    "terms/index.html": {
+      "bytes": 11607,
+      "sha256": "2ef2a6fbef0a9cadf4f73deae08f323540840f388d14d1b0e8d263bbf5f58162"
+    },
     "version.json": {
       "bytes": 67,
-      "sha256": "4fc4793f8452ac24950a7c6074407acfe2b8e50277916ebd74036b08eac035e0"
+      "sha256": "3893afd6f2d5db92c73de746dbc8aaa4911387cda6af46e92cad5e4abff4b8b1"
     }
   },
   "repository": "consciontologic/worthhit",
   "schema": 1,
-  "source_sha": "74db1e5277461329d89ff592d677817292898131",
-  "version": "0.2.0"
+  "source_sha": "46bc4377b2f2ffca17f72e4a810588e725e3bcef",
+  "version": "1.0.0"
 }
