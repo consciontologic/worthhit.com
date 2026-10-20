@@ -100023,10 +100023,10 @@ n=new A.a6W()
 m=new A.a6V(s,f,a,A.wb(h,h,h,h,h,h,h,h,h,o,h,B.jb,B.xf,h,h,h,h,h,A.B(a).ok.Q,h),n)
 l=q?16:24
 q=q?h:g.a
-k=f.xg("Version {version}",A.a1(["version","1.1.0"],t.N,t.K))
+k=f.xg("Version {version}",A.a1(["version","1.1.1"],t.N,t.K))
 j=A.B(a).ok.Q
 i=t.p
-i=A.b([A.em(A.Xf(A.b([A.bb(h,h,A.dn("v1.1.0",h,h,h,j==null?h:j.cO(o),h,B.i),!1,h,h,!0,h,!1,h,h,h,h,h,h,h,h,k,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,B.y,h),m.$3$key("GitHub","https://github.com/consciontologic/worthhit","footer-github")],i),B.Rb,0,4),1)],i)
+i=A.b([A.em(A.Xf(A.b([A.bb(h,h,A.dn("v1.1.1",h,h,h,j==null?h:j.cO(o),h,B.i),!1,h,h,!0,h,!1,h,h,h,h,h,h,h,h,k,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,B.y,h),m.$3$key("GitHub","https://github.com/consciontologic/worthhit","footer-github")],i),B.Rb,0,4),1)],i)
 if(p)i.push(new A.v9(new A.a6R(f,n),new A.a6S(s,a),f.du("Information links"),new A.dY(B.vY,new A.bS(B.xh,A.dz(B.a5y,B.an,B.C,B.b5,0),h),h),B.alM,t.iX))
 else for(f=B.KE.gfW(),f=f.ga6(f);f.t();){s=f.gN()
 i.push(m.$2(s.a,s.b))}return A.ia(A.dz(i,B.an,B.C,B.a2,0),B.L,new A.df(q,h,new A.d7(new A.aG(g.b,1,B.x,-1),B.t,B.t,B.t),h,h,h,B.b3),h,h,h,new A.aF(l,0,l,0),h)},

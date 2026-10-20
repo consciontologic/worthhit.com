@@ -38,12 +38,38 @@ addEventListener("message", eventListener);
 if (!window._flutter) {
   window._flutter = {};
 }
-_flutter.buildConfig = {"engineRevision":"06a2e2a110089dff50fe635cffd2a61e1b24fbcd","wasmHashes":{"wimp.wasm":"e924eaafd801d41e017d178f3fd5cf8a417f641fe35c9ed34a4e1d7582283e0c","chromium/canvaskit.wasm":"ae8ff1d858140f7b1300ced3fa89fb8c9dce0a400a0f4f1e11f6dcfb3315fdcf","webparagraph/canvaskit.wasm":"0ce1b05082efdc8529550e8a01f6ff0593972d55525035010e26f5600aa9f254","canvaskit.wasm":"fbed517a43e82452404446683f00f2e876d835aed84410695759e67b6bb01cd3","skwasm.wasm":"e540fd5e8303b7b68ec2718cb49e9c421f8ade3075b15e02a7059a62654df9a1","skwasm_heavy.wasm":"565f5cc1cca6ab120f11934b105f01fec4b58b480c82e0889dca93af8e6f8635"},"builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"},{}],"useLocalCanvasKit":true};
+_flutter.buildConfig = {"engineRevision":"06a2e2a110089dff50fe635cffd2a61e1b24fbcd","wasmHashes":{"skwasm.wasm":"e540fd5e8303b7b68ec2718cb49e9c421f8ade3075b15e02a7059a62654df9a1","skwasm_heavy.wasm":"565f5cc1cca6ab120f11934b105f01fec4b58b480c82e0889dca93af8e6f8635","wimp.wasm":"e924eaafd801d41e017d178f3fd5cf8a417f641fe35c9ed34a4e1d7582283e0c","webparagraph/canvaskit.wasm":"0ce1b05082efdc8529550e8a01f6ff0593972d55525035010e26f5600aa9f254","chromium/canvaskit.wasm":"ae8ff1d858140f7b1300ced3fa89fb8c9dce0a400a0f4f1e11f6dcfb3315fdcf","canvaskit.wasm":"fbed517a43e82452404446683f00f2e876d835aed84410695759e67b6bb01cd3"},"builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"},{}],"useLocalCanvasKit":true};
 
-_flutter.loader.load({
-  onEntrypointLoaded: async function(engineInitializer) {
-    const runner = await engineInitializer.initializeEngine();
-    await runner.runApp();
-    document.getElementById('loading')?.remove();
+(() => {
+  const entrypoint = new URL('main.dart.js', document.baseURI);
+  const showFailure = () => {
+    const recovery = document.getElementById('startup-error');
+    if (recovery) recovery.hidden = false;
+  };
+  // Flutter's callback-based loader does not reject on an entrypoint resource
+  // error. Limit recovery to that script; analytics failure never gates startup.
+  const entrypointFailed = event => {
+    if (event.target?.tagName !== 'SCRIPT') return;
+    const failed = new URL(event.target.src, document.baseURI);
+    if (failed.origin === entrypoint.origin && failed.pathname === entrypoint.pathname) {
+      showFailure();
+    }
+  };
+  window.addEventListener('error', entrypointFailed, true);
+  try {
+    Promise.resolve(_flutter.loader.load({
+      onEntrypointLoaded: async function(engineInitializer) {
+        try {
+          const runner = await engineInitializer.initializeEngine();
+          await runner.runApp();
+          document.getElementById('startup-error')?.remove();
+          window.removeEventListener('error', entrypointFailed, true);
+        } catch (_) {
+          showFailure();
+        }
+      }
+    })).catch(showFailure);
+  } catch (_) {
+    showFailure();
   }
-});
+})();
