@@ -1,16 +1,20 @@
 /* Static-shell registration. API requests and private content are never cached. */
 (() => {
-  const release = 'e5858a92df91ee5d2ebeca1f28be976e3927a4a30880236e6a3df3bcbe6d2d52';
+  const release = '4dd3835793bd30e08b4fafdc69ecabdc90160c7e73281c0fef1f4fdf2cce0039';
   if (!('serviceWorker' in navigator)) return;
   const identify = () => navigator.serviceWorker.controller?.postMessage({
     type: 'CLIENT_RELEASE', release
   });
   navigator.serviceWorker.addEventListener('controllerchange', identify);
+  // Pin already-controlled clients immediately; this does not install anything.
+  identify();
   let registration;
   let inFlight = false;
   let nextCheck = 0;
   let timer;
   let stopped = true;
+  let firstFrame = false;
+  let pageActive = true;
 
   // Checking only `waiting` cannot discover a remote release in a long-lived
   // tab. Ask the browser for the worker script while online and visible.
@@ -39,7 +43,7 @@
     }
   };
   const start = () => {
-    if (!stopped) return;
+    if (!firstFrame || !pageActive || !stopped) return;
     stopped = false;
     window.addEventListener('focus', check);
     window.addEventListener('online', check);
@@ -48,6 +52,7 @@
     void check();
   };
   const stop = () => {
+    pageActive = false;
     stopped = true;
     clearInterval(timer);
     window.removeEventListener('focus', check);
@@ -55,6 +60,16 @@
     document.removeEventListener('visibilitychange', check);
   };
   window.addEventListener('pagehide', stop);
-  window.addEventListener('pageshow', start);
-  start();
+  window.addEventListener('pageshow', () => {
+    pageActive = true;
+    start();
+  });
+  // Flutter 3.47.3 dispatches this from its first-frame rendering callback,
+  // specifically so offline installation does not compete with startup assets.
+  const rendered = () => {
+    firstFrame = true;
+    window.removeEventListener('flutter-first-frame', rendered);
+    start();
+  };
+  window.addEventListener('flutter-first-frame', rendered);
 })();
