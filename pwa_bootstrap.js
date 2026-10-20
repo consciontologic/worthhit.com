@@ -1,6 +1,6 @@
 /* Static-shell registration. API requests and private content are never cached. */
 (() => {
-  const release = '4dd3835793bd30e08b4fafdc69ecabdc90160c7e73281c0fef1f4fdf2cce0039';
+  const release = '32e7eaedbbc5dfee219a15528531c5d205991d3ddf4a5452b4248fae1830e59d';
   if (!('serviceWorker' in navigator)) return;
   const identify = () => navigator.serviceWorker.controller?.postMessage({
     type: 'CLIENT_RELEASE', release
