@@ -9,20 +9,20 @@
       "sha256": "0c16ba804081b5f4318842270621527a8093f9b87446e4aacd489a7cfa7c12bb"
     },
     "about/index.html": {
-      "bytes": 9499,
-      "sha256": "d586c6237f3a034c4f829fabeae902238cd609d86c9618c06b43c479187cb3ad"
+      "bytes": 15459,
+      "sha256": "2588896979fed38191d069276241c07727c604828560e73e1285618f5f2d3bbc"
     },
     "assets/AssetManifest.bin": {
-      "bytes": 976,
-      "sha256": "84d26989251d73b09dd6050115f1cddd848d67aef04174373aad91fccbf045a2"
+      "bytes": 1051,
+      "sha256": "de0dd486821d486f92881662799583aeca7b49a074dcc9ffd2643c4bc4e40e79"
     },
     "assets/AssetManifest.bin.json": {
-      "bytes": 1306,
-      "sha256": "eb3d11ae1565b30a561b7056865f03c73e872c75bd00a879957c37a5752ad391"
+      "bytes": 1406,
+      "sha256": "699644b03b1ffab94cdd0b8127a31a6046095767d5b95145062a8cc3c58db067"
     },
     "assets/FontManifest.json": {
-      "bytes": 474,
-      "sha256": "8fb9e47344fe9fe102b7f2db22f110d6310183c4e805a44c5eff5f47482cb0c5"
+      "bytes": 554,
+      "sha256": "cdde31b431a3e9f8b8b5e1a0d1d7ec9926af9d0e17da7710d2086bd715a2d390"
     },
     "assets/NOTICES": {
       "bytes": 1305877,
@@ -84,9 +84,13 @@
       "bytes": 136676,
       "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
     },
+    "assets/assets/icons/WorthhitIcons.ttf": {
+      "bytes": 4032,
+      "sha256": "68e220409df4ee98088730b3d7f72e645a3a6cce0de07befcdaabecbfce53fc5"
+    },
     "assets/fonts/MaterialIcons-Regular.otf": {
-      "bytes": 10204,
-      "sha256": "4eac111dc1c4c76ad0e48d9755613c5cf4ea97e0ef12a8d5b6fe5fea8625d127"
+      "bytes": 7736,
+      "sha256": "d9bad7f2677571a9c5586bb96a9fd3769a1c7742771f0165f3f9d088df89c1e1"
     },
     "assets/fonts/fallback/Roboto-Regular.ttf": {
       "bytes": 171676,
@@ -198,7 +202,7 @@
     },
     "flutter_bootstrap.js": {
       "bytes": 13157,
-      "sha256": "dad088c8d0a3bf1878018fbe5caf2535ac23440b3fef898e555cb0498dace654"
+      "sha256": "fb142a57e8b8f6359f0164b9022433875fcb2d42c94e3db890d79f4600e4ebce"
     },
     "icons/Icon-192.png": {
       "bytes": 3495,
@@ -225,12 +229,12 @@
       "sha256": "6eebcc46e1f8f9210cb09c82b6dba803a3d37597a830808e3e394e4d8804aa60"
     },
     "liability/index.html": {
-      "bytes": 8993,
-      "sha256": "2e1669844521481925f38ad7343c5a8c62b0806a96dad4f7ed832524c662c18f"
+      "bytes": 11139,
+      "sha256": "722a615e9b5bf122f56aff85f23d01e1ee1d818e8babfac5010eba62153c87ed"
     },
     "main.dart.js": {
-      "bytes": 3460885,
-      "sha256": "f67f5bc3078f4873d9121558e1c891aacbba85225aacddd17597c4a5272550e1"
+      "bytes": 3471191,
+      "sha256": "bd160b7a2e8b85a4097868f9eb9b88647a25e993c1ed632cdebfda897709b789"
     },
     "manifest.json": {
       "bytes": 792,
@@ -241,24 +245,24 @@
       "sha256": "393f0dff24b936f7a6a8a62491305ea87a8e27c39316321266b8b231d55258eb"
     },
     "pwa_bootstrap.js": {
-      "bytes": 851,
-      "sha256": "66c8832a23aa19450cb47d61ddfdbe0f0fbde0c6f5a69d4b4ee380b9f8eb0941"
+      "bytes": 2371,
+      "sha256": "77794808701ee9361b4f5a9fd0d2d58ec1e2a3bbdff7bfa633f09f5c74b2eb60"
     },
     "release.json": {
-      "bytes": 8319,
-      "sha256": "36f9e788aec4b47fc1c12b79dc653b7bd677d2f741a029ef808eb21a78990448"
+      "bytes": 8458,
+      "sha256": "dc555231c7fbf18618a353d9da50e03e6dee7b9e8235bce359efa1ed70ee0cb4"
     },
     "robots.txt": {
       "bytes": 65,
       "sha256": "ec380999c0b946a61cf6b9f48ae61d62b65f205f3c68ee85115329cfb7bc723e"
     },
     "service_worker.js": {
-      "bytes": 19420,
-      "sha256": "193b1a50a08e14dcacb474f4fd9f6e6d628091600203e827abf7328bfa28a53f"
+      "bytes": 19559,
+      "sha256": "1645eb2ea2a1dc07c091d54900fd1fd87ad2f59f774841cd123266f8f4b8e32c"
     },
     "site.css": {
-      "bytes": 5183,
-      "sha256": "0903d372ad70452b41e48c02d4c8774d64aea0d622400e1263ae288bee1d1f67"
+      "bytes": 5591,
+      "sha256": "347b3e6c12deeca68fc61321aa10bbad82cadf6fa9fb3011374f771d625a18be"
     },
     "sitemap.xml": {
       "bytes": 316,
@@ -269,16 +273,16 @@
       "sha256": "100bee5d857e494c49a836a135d9a1050333156dc689835a8a63547a8f09d5fc"
     },
     "terms/index.html": {
-      "bytes": 11607,
-      "sha256": "2ef2a6fbef0a9cadf4f73deae08f323540840f388d14d1b0e8d263bbf5f58162"
+      "bytes": 13753,
+      "sha256": "e8e4b21d64fd3db994e9d94489558faa18a630f7151ea2d7b21b149a38935621"
     },
     "version.json": {
       "bytes": 67,
-      "sha256": "3893afd6f2d5db92c73de746dbc8aaa4911387cda6af46e92cad5e4abff4b8b1"
+      "sha256": "48a4d4ce80f420aa148986e90e8a196485583f1511e07730962eb9dd936c3d6f"
     }
   },
   "repository": "consciontologic/worthhit",
   "schema": 1,
-  "source_sha": "46bc4377b2f2ffca17f72e4a810588e725e3bcef",
-  "version": "1.0.0"
+  "source_sha": "4b69cb1f61944a2abb688e5c9d62d47ea743714f",
+  "version": "1.1.0"
 }
