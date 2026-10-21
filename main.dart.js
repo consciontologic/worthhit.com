@@ -99704,10 +99704,10 @@ n=new A.a7h()
 m=new A.a7g(s,f,a,A.rG(h,h,h,h,h,h,h,h,h,o,h,B.jh,B.xr,h,h,h,h,h,A.C(a).ok.Q,h),n)
 l=q?16:24
 q=q?h:g.a
-k=f.xa("Version {version}",A.a0(["version","1.1.3"],t.N,t.K))
+k=f.xa("Version {version}",A.a0(["version","1.1.4"],t.N,t.K))
 j=A.C(a).ok.Q
 i=t.p
-i=A.b([A.dU(A.arR(A.b([A.bd(h,h,A.cB("v1.1.3",h,h,h,h,j==null?h:j.cL(o),h,B.i),!1,h,h,!0,h,!1,h,h,h,h,h,h,h,h,h,k,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,B.z,h),m.$3$key("GitHub",u.B,"footer-github")],i),B.Rm,0,4),1)],i)
+i=A.b([A.dU(A.arR(A.b([A.bd(h,h,A.cB("v1.1.4",h,h,h,h,j==null?h:j.cL(o),h,B.i),!1,h,h,!0,h,!1,h,h,h,h,h,h,h,h,h,k,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,B.z,h),m.$3$key("GitHub",u.B,"footer-github")],i),B.Rm,0,4),1)],i)
 if(p)i.push(new A.vr(new A.a7c(n),new A.a7d(s,a),f.dq("Information links"),new A.dH(B.w9,new A.bT(B.xt,A.dj(B.a7v,B.af,B.C,B.ba,0),h),h),B.aq0,t.iX))
 else for(f=B.KQ.gfU(),f=f.ga5(f);f.t();){s=f.gN()
 i.push(m.$2(s.a,s.b))}return A.ig(A.dj(i,B.af,B.C,B.Z,0),B.K,new A.dg(q,h,new A.cQ(new A.aI(g.b,1,B.y,-1),B.r,B.r,B.r),h,h,h,B.b8),h,h,h,new A.aG(l,0,l,0),h)},
