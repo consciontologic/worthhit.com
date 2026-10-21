@@ -9,16 +9,16 @@
       "sha256": "0c16ba804081b5f4318842270621527a8093f9b87446e4aacd489a7cfa7c12bb"
     },
     "about/index.html": {
-      "bytes": 15575,
-      "sha256": "f8f0ed06e0fbea7f57a1186bb6a3956da468ad6f70d9a8d15b0013fadde1992f"
+      "bytes": 15867,
+      "sha256": "7e8552289843b03c1df4e04f26086ed379c4c758ab8c892fd61af45c303517d9"
     },
     "assets/AssetManifest.bin": {
-      "bytes": 1067,
-      "sha256": "330250a6756cd49c1fdea7b9d2702a13f402ef108881c92897ebeeeee4ef7752"
+      "bytes": 1142,
+      "sha256": "952a8002848b0f88e191922e98400e7af71fda446482ce79adf6a7d87cd2373c"
     },
     "assets/AssetManifest.bin.json": {
-      "bytes": 1426,
-      "sha256": "e1779702c5ba2cc8351ebdd7ea6860f0887bdccaa76833f14ce674b3dbf619e7"
+      "bytes": 1526,
+      "sha256": "1b6ea6874076be5ddb18636e2fa98ab142cc2d31769e6d1e3896d0c1043f6998"
     },
     "assets/FontManifest.json": {
       "bytes": 562,
@@ -31,6 +31,10 @@
     "assets/assets/appraisal_system_v1.txt": {
       "bytes": 7543,
       "sha256": "dc43c6025020bb5f65eaf9089fbea7b6573eea3116686674a5a6119d828d3397"
+    },
+    "assets/assets/appraisal_system_v2.txt": {
+      "bytes": 10244,
+      "sha256": "b38de13e5cad77c1ed81d20fcb0ce782f0445672b6ed694172a2411519d38311"
     },
     "assets/assets/brand/logo-dark.png": {
       "bytes": 7025,
@@ -89,8 +93,8 @@
       "sha256": "68e220409df4ee98088730b3d7f72e645a3a6cce0de07befcdaabecbfce53fc5"
     },
     "assets/fonts/MaterialIcons-Regular.otf": {
-      "bytes": 7736,
-      "sha256": "d9bad7f2677571a9c5586bb96a9fd3769a1c7742771f0165f3f9d088df89c1e1"
+      "bytes": 8008,
+      "sha256": "3f9456cefe7c43b0d3c94f67ea4443a0fb0461de80a18e09a393d01e061d823e"
     },
     "assets/fonts/fallback/Roboto-Regular.ttf": {
       "bytes": 171676,
@@ -169,20 +173,20 @@
       "sha256": "23a5c32ef351224031f0d985213e2872c87ebceb1207eb48386d5a6f2811bf0b"
     },
     "index.html": {
-      "bytes": 4711,
-      "sha256": "09776dd6c3626602d6377404a76e38eae8214ae61a5730c0fa9ea6454ff8da8e"
+      "bytes": 4880,
+      "sha256": "76743542b20470f3d24a601b228c72917c01c4922ba222eed9882ae84223091e"
     },
     "liability/index.html": {
-      "bytes": 11139,
-      "sha256": "49652a2fb0733240dfbf65164f65704ec3c05cc7a1db1887e54d71ee4613c99c"
+      "bytes": 11357,
+      "sha256": "97ef9606a11471d9ca73d9b7350ca04910e809bd087c2b816fe9c92618fda645"
     },
     "main.dart.js": {
-      "bytes": 3482916,
-      "sha256": "5a15a3e6d0fe0ed83dd2926ad58d806d3ed909ee2a44efe46f0275cbf55df282"
+      "bytes": 3577981,
+      "sha256": "51124dc64d578801587a53b4d3f1857ecc8e37bb2ce3eaf7790b10ab2d94d37f"
     },
     "manifest.json": {
-      "bytes": 792,
-      "sha256": "ebce43f46a168e6125f93e56e859dac0ad24c3779def39c960430ef94ae6c08b"
+      "bytes": 839,
+      "sha256": "6fa82eb98ab70c19bcd0a0ce708c78c209e37ab9b18c7146c9bc81154000f1a2"
     },
     "preferences_bootstrap.js": {
       "bytes": 822,
@@ -190,19 +194,19 @@
     },
     "pwa_bootstrap.js": {
       "bytes": 2952,
-      "sha256": "70fd200fe76abc61462f005175477b5d2503e43c2f9e745fef6410e91c0c6b73"
+      "sha256": "b5dbaf51ecaf6b532a2eea9817a2f6a224cd7dcddd5b8531f3490b9c545a6b2f"
     },
     "release.json": {
-      "bytes": 6647,
-      "sha256": "25029fa127aafca14800ba771aae88b0ec6a11f856da813718b573d85f8fead1"
+      "bytes": 6784,
+      "sha256": "ed0257b0621b2bfe67d0b404e017023fc6b940be7ad4ec37cf35069101bd6451"
     },
     "robots.txt": {
       "bytes": 65,
       "sha256": "ec380999c0b946a61cf6b9f48ae61d62b65f205f3c68ee85115329cfb7bc723e"
     },
     "service_worker.js": {
-      "bytes": 17748,
-      "sha256": "bf45cc79c6e7768f84496a57375a048a8b1acb23182098acffac120d42a330ea"
+      "bytes": 17885,
+      "sha256": "047324ccf427588b4633f6a54e8b6913c7f46acf3e7f798b16da1141740b7cd1"
     },
     "site.css": {
       "bytes": 5787,
@@ -217,16 +221,16 @@
       "sha256": "100bee5d857e494c49a836a135d9a1050333156dc689835a8a63547a8f09d5fc"
     },
     "terms/index.html": {
-      "bytes": 13753,
-      "sha256": "47258fbd6473f3623ccb18f93b03483e7fac3f64e5aa24b2e16aec286b278c3b"
+      "bytes": 14071,
+      "sha256": "b04728cdace6288c2c01968c6717f221107d5e8a3be9718e6ed9e3c4b879f854"
     },
     "version.json": {
       "bytes": 67,
-      "sha256": "2baf0eef2917c63a7ee753a07c73eba29a39f5b44181a46736b781f43b7f7d7c"
+      "sha256": "01a2c742f43f75178735bcf4a39aa958ae2c6ddc0c82325787f22faa7eec3ae9"
     }
   },
   "repository": "consciontologic/worthhit",
   "schema": 1,
-  "source_sha": "09cdfd0c44e9c7a752fcfa4e6b20cafce927e0d7",
-  "version": "1.1.4"
+  "source_sha": "e5919e70ecd62876eb8f9ab58f1be206a686ad99",
+  "version": "2.0.0"
 }
